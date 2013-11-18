@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blood Alcohol Calculator</string>
+    <string name="secondary_app_name">Blood Alcohol Calculator - [Add Drink]</string>
+    <string name="warning_title">Warning!</string>
+    <color name="warning_colour">#555</color>
+    <string name="blank_text"/>
+    <string name="disclaimer_message">The following program should only be used as a guide! As a result, the information on this site is NOT LEGAL ADVICE and is for entertainment purposes only. Keep in mind that actual blood alcohol concentrations are dependent on other factors such as genetics and previous meals. By proceeding to the next page, you agree that you accept all risks of using this program!\nNEVER DRINK AND DRIVE! </string>
+    <string name="agree_string">I AGREE</string>
+    <string name="disagree_string">I DISAGREE</string>
+    <string name="gender_string">Enter Your Gender:</string>
+    <string-array name="gender_elements">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+	<string name="weight_string">Enter Your Weight:</string>
+	<string-array name="weight_elements">
+        <item>lbs</item>
+        <item>kg</item>
+    </string-array>
+    <string name="country_string">Enter Your Country:</string>
+    <string name="stateprovince_string">Enter Your State/Province:</string>
+   	<string-array name="country_elements">
+        <item>Canada</item>
+        <item>United States</item>
+    </string-array>
+    <string-array name="canada_elements">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Nova Scotia</item>
+        <item>Nunavut</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon</item>
+    </string-array>
+    <string-array name="usa_elements">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+    <string name="addDrink_string">Add Drink</string>
+    <string name="drink_name">Please Enter the Drink Name:</string>
+    <string name="alcohol_volume">Please Enter the Alcohol Volume:</string>
+   	<string-array name="volume_elements">
+        <item>mL</item>
+        <item>fl oz</item>
+    </string-array>
+   	<string name="alcohol_percentage">Please Enter the Alcohol Percentage:</string>
+   	<string name="consumption_time">Time It Was Consumed:</string>
+   	<string name="add_string">Add Drink...</string>
+   	<string name="time_string">Enter the Time You Would Like Your BAC:</string>
+   	<string name="warninginfo_string">Please Accept the Following Before Continuing:</string>
+   	<string name="warning1_string">I understand the blood alcohol level determined by this calculator may not reflect additional factors such as age, genetics, disease and metabolism.</string>
+   	<string name="warning2_string">I agree to not operate a motor vehicle under the influence of alcohol. If I do, I assume full risk of injury and death to myself and others.</string>
+   	<string name="calculate_button">Calculate BAC!</string>
+   	<string name="bac_title">Your BAC:</string>
+   	<string name="app_name_result">Blood Alcohol Calculator - [Results]</string>
+   	<string name="bac_0to0.01">-You will not feel any effects of alcohol.</string>
+   	<string name="bac_0.01to0.03">-You may feel a little light headed.\n\n-You may lose a little bit of shyness.\n\n-However, you will not be affected by the antidepressant nature of alcohol.</string>
+   	<string name="bac_0.03to0.06">-You will feel a sense of euphoria at this stage and probably feel a little more relaxed.\n\n-Your behaviour may be a little more exaggerated or intensified.\n\n-You likely have a little impairment of reasoning and memory.</string>
+	<string name="bac_0.06to0.09">-You will be able to tell that you are drinking at this level.\n\n-This being said, you may feel that you are more alert than you actually are.\n\n-You will have impairment of speech, balance and hearing.\n\n-Impaired judgement is also common.</string>
+   	<string name="bac_0.09to0.125">-You will have slurred speech at this level.\n\n-Your balance, vision, hearing will also be impaired at this level.\n\n-You may experience significant impairment of motor control and good judgement.</string>
+   	<string name="bac_0.125to0.15">-You may have gross motor impairment. For example, texting would be very difficult.\n\n-Also, your judgement will be severely impared.\n\n-It is likely that any euphoria from previous phases would be replaced with dysphoria.</string>
+   	<string name="bac_0.15to0.19">-You may start to feel sick to your stomach at this level.\n\n-You may start to experience dysphoria and start to feel depressed.\n\n-Motor coordination is severely depressed.</string>
+	<string name="bac_0.19to0.20">-You probably will not be able to walk by yourself.\n\n-You will likely have reduced pain sensation (even if you get hurt).\n\n-Some people may vomit at this stage.\n\n-Most people will feel dazed and confused.\n\n-NOTE: At this level your gag reflex is impared. This means you could aspirate vomit leading to asphyxiation.</string>
+   	<string name="bac_0.20to0.30">-You likely have very little comprehension in regards to what you are doing at this level.\n\n-You may pass out suddenly at this level and have a hard time waking up.\n\n-NOTE: At this level your gag reflex is impared. This means you could aspirate vomit leading to asphyxiation. </string>
+   	<string name="bac_0.30toOnwards">-You could possibly fall into a coma at this level.\n\n-You potentially may need medical attention at this level and could possibly die.\n\n-NOTE: At this level your gag reflex is impared. This means you could aspirate vomit leading to asphyxiation. </string>
+   	<string name="bac_0to0.01title">At a blood alcohol concentration between 0 to 0.01:</string>
+   	<string name="bac_0.01to0.03title">At a blood alcohol concentration between 0.01 to 0.03:</string>
+   	<string name="bac_0.03to0.06title">At a blood alcohol concentration between 0.03 to 0.06:</string>
+	<string name="bac_0.06to0.09title">At a blood alcohol concentration between 0.06 to 0.09:</string>
+   	<string name="bac_0.09to0.125title">At a blood alcohol concentration between 0.09 to 0.125:</string>
+   	<string name="bac_0.125to0.15title">At a blood alcohol concentration between 0.125 to 0.15:</string>
+   	<string name="bac_0.15to0.19title">At a blood alcohol concentration between 0.15 to 0.19:</string>
+	<string name="bac_0.19to0.20title">At a blood alcohol concentration between 0.19 to 0.20:</string>
+   	<string name="bac_0.20to0.30title">At a blood alcohol concentration between 0.20 to 0.30:</string>
+   	<string name="bac_0.30toOnwardstitle">At a blood alcohol concentration above 0.30:</string>
+</resources>

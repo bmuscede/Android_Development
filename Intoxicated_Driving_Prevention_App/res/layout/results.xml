@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblBlank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblBACTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/bac_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/lblBACResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="BAC_GOES_HERE"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/lblBlank2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblDrivingResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="DRIVING_RESULTS_HERE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblBlank3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblAlcoholResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="ALCOHOL_RESULTS_TITLE_HERE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblAlcoholResultsDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALCOHOL_RESULTS_HERE"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

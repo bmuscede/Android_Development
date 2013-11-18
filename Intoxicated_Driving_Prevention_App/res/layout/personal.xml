@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/gender_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spnGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblGender"
+        android:entries="@array/gender_elements"
+        android:prompt="@string/gender_string" />
+
+    <TextView
+        android:id="@+id/lblWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spnGender"
+        android:layout_marginTop="22dp"
+        android:text="@string/weight_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblWeight"
+        android:layout_below="@+id/lblWeight"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spnWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtWeight"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/lblGender"
+        android:entries="@array/weight_elements" />
+
+    <TextView
+        android:id="@+id/lblCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtWeight"
+        android:layout_marginTop="24dp"
+        android:text="@string/country_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spnCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:entries="@array/country_elements"
+        android:prompt="@string/country_string" />
+
+    <TextView
+        android:id="@+id/lblStateProvince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spnCountry"
+        android:layout_marginTop="18dp"
+        android:text="@string/stateprovince_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spnStateProvince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblStateProvince"
+        android:entries="@array/canada_elements"
+        android:prompt="@string/stateprovince_string" />
+
+</RelativeLayout>
